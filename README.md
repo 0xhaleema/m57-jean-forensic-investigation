@@ -58,4 +58,11 @@ The objective was to determine how the data was stolen — and whether Jean was 
 
 ---
 
-## Repository Contents
+## Case Source
+Garfinkel, S. (2009). *2009 M57-Jean*. Digital Corpora.
+Retrieved from: https://digitalcorpora.org/corpora/scenarios/m57-jean/
+
+---
+
+## Disclaimer
+This case was completed purely for self-study and skill development. The disk image is publicly available through Digital Corpora for educational purposes. No real individuals or organizations were involved.
