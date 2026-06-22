@@ -1,0 +1,274 @@
+Google Alerts:
+On 06-07-2008, jean setup a google alert named "skin in the office" at 13:56:41
+On 06-07-2008, jean setup a google alert named "m57.biz" at 13:56:53
+
+On 06-07-2008, jean got the first a google alert named "skin in the office" 14:00:35
+jean started getting alerts from 06-07, till 20-07 after every  on average 2-3 hours named "skin in the office"
+
+On 17-07-2008, jean got the first a google alert named "m57.biz" at 00:55:25
+
+what was she tracking?
+why was she getting so many alerts this rapidly?
+
+--------------------------------------------------------------------------------------------------------------
+Alison suspicious Emails:
+
+Sender: alison@m57.biz / tuckgorge@gmail.com
+Receiver: jean@m57.biz
+Request: Employee names, salaries, SSNs
+Method: Social engineering (fake VC investor story)
+Secrecy: "Do not tell anyone" — mentioned TWICE
+Personal Gmail used: tuckgorge@gmail.com
+Status: File was sent — "Thanks for the file"
+Significance: DATA EXFILTRATION CONFIRMED via email
+
+Dates:
+on 20-07-2008, at 05:39:57 alison sent the email to jean.
+content of email:
+	Jean,
+
+	One of the potential investors that I've been dealing with has asked me to get a background
+	check of our current employees. Apparently they recently had some problems at some other 
+	company they funded.
+
+	Could you please put together for me a spreadsheet specifying each of our employees, their
+	current salary, and their SSN?
+
+	Please do not mention this to anybody.
+	
+	Thanks.
+
+	(ps: because of the sensitive nature of this, please do not include the text of this email
+	in your message to me. Thanks.)
+
+on 20-07-2008, at 07:22:45 alison sent the email again to jean via personal email tuckgorge@gmail.com
+content of email:
+	Hi, Jean.
+
+	I'm sorry to bother you, but I really need that information now --- this VC guy is being very insistent.
+	Can you please reply to this email with the information I requested --- the names, salaries, and 
+	social security numbers (SSNs) of all our current employees and intended hires?
+	
+	Thanks.
+
+	Alison
+
+
+on 20-07-2008, at 11:03:40 alison sent the email again to jean via personal email tuckgorge@gmail.com
+content of email:
+	Jean,
+
+	Thanks for the file. I'll handle it from here. to: jean@m57.biz
+	from: (alison@m57.biz) tuckgorge@gmail.com
+	subject: Thanks!
+
+	Jean,
+
+	Thanks for the file. I'll handle it from here. 
+
+	Once again, please don't tell anyone about this.
+
+
+why was alison using personal email?
+was someone else impersonating alison?
+why was she constantly saying not to tell anyone?
+
+---------------------------------------------------------------------------------------------------------------
+Alex Emails:
+Emails involved: alex@m57.biz, alison@m57.biz, 
+                 tuckgorge@gmail.com
+Pattern: Three different identities, possibly one attacker
+Excuse given: "Email misconfigured"
+Suspicion: Social engineering via identity confusion
+Jean's response: Confused 
+CNN forwards: Possible trust-building / distraction tactic
+
+ 
+1.20-07-2008, at 05:33:13 
+Alison sending emails from alex.m57
+
+This one, obviously.
+
+-----Original Message-----
+From: Jean User [mailto:jean@m57.biz]
+Sent: Sunday, July 20, 2008 12:32 AM
+To: alison@m57.biz
+Subject: which email address are you using?
+
+
+Are you going to use alex@m57.biz or alison@m57.biz?
+
+2.20-07-2008, at 05:43:48
+Alison saying her email got misconfigured
+
+Whoops. It looks like my email was misconfigured.
+My email is alison@m57.biz, not alex. Sorry about that.
+
+-----Original Message-----
+From: alex [mailto:alex@m57.biz]
+Sent: Sunday, July 20, 2008 12:33 AM
+To: Jean User; alison@m57.biz
+Subject: RE: which email address are you using?
+
+This one, obviously.
+
+3.20-07-2008, at 05:50:21
+Jean is confused about alison's emails
+Please stop this email train.
+
+-----Original Message-----
+From: Jean User [mailto:jean@m57.biz]
+Sent: Sunday, July 20, 2008 12:47 AM
+To: alison@m57.biz
+Subject: RE: which email address are you using?
+
+
+I'm confused.
+
+
+4.20-07-2008, at 05:50:20
+Names: Alice, Bob and Carol
+Status: "Supposed to start last week" — unverified
+Tone: Commanding — "Make it happen"
+Suspicion: Possibly fake/ghost employees
+Connection: May be linked to SSN/Salary 
+            spreadsheet request
+
+
+why her email was misconfigured?
+3 different identities of alison?
+strange commanding behavior of alison?
+what were they talking about programmers?
+what they have to make happen?
+----------------------------------------------------------------------------
+Jean Emails:
+Sender: jean@m57.biz
+Receivers: alison@m57.biz, tuckgorge@gmail.com, bob, carol
+
+1. 06-07-2008, at 13:55:47
+Jean forwards CNN article to Alison
+
+"this is what I was talking about today!!!"
+Link: CNN — "How much skin is too much at the office?"
+Note: Jean herself found and shared this article — she was interested in this topic
+
+
+2. 20-07-2008, at 05:31:00
+Jean asks Alison about email confusion
+
+"Are you going to use alex@m57.biz or alison@m57.biz?"
+Note: Jean herself noticed something was off — two different emails for same person
+
+
+3. Date: After SSN request on 20-07-2008, at 05:44:00
+Jean casually agrees to background check request
+
+"Sure thing."
+Note: No questions asked — no verification of legitimacy — very casual response to sensitive request
+
+
+4. 20-07-2008, at 7:28:00
+Jean sends attachment to alison@m57.biz
+
+"I've attached the information that you have requested to this email message."
+
+
+5. After data leak on 21-07-2008, at 5:58:00
+Bob contacts Jean about SSN posted online
+Jean replies:
+
+"Hi Bob. No I've heard nothing about this. Alison just asked me a question if something weird was going on. I haven't seen anything."
+Note: Jean acting innocent — denying all knowledge or she really doesn't know anything
+
+
+6. After data leak on 21-07-2008, at 6:04:00
+Bob confirms Jean's own SSN leaked — asks Jean directly:
+
+"Is your SSN 432-34-6432 and are you really making $120,000/year?"
+Jean confirms:
+"It is, and I do. What's up with that?"
+Note: Jean's OWN data was leaked — she was also a victim of the attacker
+
+
+7. After data leak on 21-07-2008, at 6:45:00
+Carol asks Jean about real data in database:
+
+"Did you by any chance populate the database with real data?"
+Jean denies:
+"What are you talking about? I'm confused. I'd never use real data for this."
+Note: Jean denying — but she already sent real data via email 
+
+
+8. Legal confirmation request on 21-07-2008, at 6:46:00
+Investigator/Alison asks Jean formally:
+
+"Since this email might be used as evidence in a court of law — Is your SSN 432-34-6432? Are you making $120,000/year?"
+Jean confirms:
+"yes it is... is there a problem?"
+Note: Jean confirmed her own identity and salary under potential legal pressure or she is a victim too
+
+
+Did Jean knowingly send real data or was she genuinely fooled?
+Why did she send sensitive data to a Gmail address without questioning?
+Why did she deny everything to Bob and Carol after the leak?
+Where is the actual attachment/spreadsheet file on the disk image?
+Did Jean use USB to exfiltrate additionally?
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Exfiltrated File Located
+
+File Name: m57biz.xls
+Location: Jean's Outlook PST folder
+Path: /Documents and Settings/Jean/
+      Local Settings/Application Data/
+      Microsoft/Outlook/outlook.pst/
+File Type: Excel Spreadsheet (.xls)
+Contains: Employee names, salaries, SSNs
+Significance: This is the EXACT file Jean 
+              attached and sent via email
+              — physical evidence of 
+              data exfiltration
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Spreadsheet Contents Confirmed
+
+File: m57biz.xls
+Company: M57.biz
+
+EXFILTRATED DATA:
+- 9 employees complete records
+- All Names + Positions
+- All Salaries (Total: $1,009,000/yr)
+- All SSNs
+- Benefits info (30% = $302,700)
+- Monthly burn rate: $109,308.33
+
+KEY CONFIRMATIONS:
+Jean Jones = CFO — had legitimate access
+Jean SSN 432-34-6432 — matches Bob's email
+Jean Salary $120,000 — matches Bob's email  
+Bob Blackman — REAL employee confirmed
+Carol Canfred — REAL employee confirmed
+
+SIGNIFICANCE: Complete company financial + 
+personal data exfiltrated in single file
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+USB flash drive connected on 20-07 at 7:26
+Jean has that file on the desktop at that time.
+and she accessed the file at 7:28
+she opened the file in the Microsoft office
+2 minute gap?
+did jean copied that file to usb or from usb?
+
+
+USB connection on July 20 remains unexplained — timing correlates with file access but no corroborating evidence of file transfer via USB.
+As she doesn't open or browse the USB drives, not on 20-07 but also in the entire period
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+"Thanks email (2008-07-20 11:03) reveals attacker's real address: tuckgorge@gmail.com, masked behind display name alison@m57.biz — confirms deliberate spoofing to deceive Jean."
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Jean downloaded Install_AIM on 2008-07-18, two days before the file access event. Purpose unknown — no chat logs recovered. Cannot confirm whether AIM was used to communicate with the attacker.
+
+
