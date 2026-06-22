@@ -15,9 +15,7 @@ The objective was to determine how the data was stolen — and whether Jean was 
 ## Tools Used
 | Tool | Purpose |
 |---|---|
-| Autopsy 4.x | Primary forensic analysis |
-| FTK Imager | Evidence verification |
-| CyberChef | Data decoding and analysis |
+| Autopsy 4.23.0 | Primary forensic analysis |
 
 ---
 
