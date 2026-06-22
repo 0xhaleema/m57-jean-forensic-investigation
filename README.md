@@ -1,2 +1,42 @@
-# m57-jean-forensic-investigation
-Digital forensic examination of the M57-Jean data exfiltration case. Analyzed disk image using Autopsy 4.23.0 , covering email forensics, USB artifacts, web history, and timeline reconstruction. Includes full examination report.
+M57-Jean Digital Forensic Investigation
+Overview
+This repository documents my forensic examination of the M57-Jean case — a classic digital forensics scenario involving the exfiltration of confidential employee data from a corporate laptop. The case was solved independently as part of my self-directed DFIR learning journey.
+Case Background
+M57.Biz is a fictional startup company. A confidential spreadsheet containing the names, salaries, and Social Security Numbers of 9 employees was found publicly posted on a competitor's website. The spreadsheet had only existed on the laptop of Jean, the company's CFO. Jean claimed she had no idea how the data left her machine.
+The objective was to determine how the data was stolen — and whether Jean was truly innocent.
+Tools Used
+
+Autopsy 4.x
+FTK Imager
+CyberChef
+
+Key Findings
+
+The attacker was an external threat operating through tuckgorge@gmail.com
+A fake internal identity (alex@m57.biz) was created to initiate contact with Jean
+The attacker spoofed the company president's email (alison@m57.biz) to add authority to their requests
+The real Alison always used the display name AlisonM57 — any email without this was the attacker
+Jean was deceived through social engineering and is determined to be an innocent victim
+The exfiltrated file m57biz.xls was sent via email on July 20, 2008 at 07:28
+
+Artifacts Analyzed
+
+Email Messages (261 emails from Outlook PST file)
+USB Device Attached artifacts
+Recent Documents
+Web Downloads
+Web Search History
+Shell Bags
+
+Repository Contents
+
+report/ — Full forensic examination report
+investigation-notes/ — Raw notes taken during the investigation
+screenshots/ — Key screenshots from Autopsy
+
+Case Source
+Garfinkel, S. (2009). 2009 M57-Jean. Digital Corpora.
+
+https://digitalcorpora.org/corpora/scenarios/m57-jean/
+Disclaimer
+This case was completed purely for self-study and skill development. The disk image is publicly available through Digital Corpora for educational purposes. No real individuals or organizations were involved.
